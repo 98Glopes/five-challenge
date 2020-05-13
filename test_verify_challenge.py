@@ -15,11 +15,12 @@ class VerifyChallenge(unittest.TestCase):
             "Fizz\n"
             "Fizz\n"
             "Fizz\n"
-            "...\n"
+            "..............................................................\n"
             "Resumo\n"
             "7 Fizz\n"
             "0 Buzz\n"
             "0 FizzBuzz\n"
+            "..............................................................\n"
         )
         result = FizzBuzz(_input)
 
@@ -37,11 +38,12 @@ class VerifyChallenge(unittest.TestCase):
             "Buzz\n"
             "Buzz\n"
             "Buzz\n"
-            "...\n"
+            "..............................................................\n"
             "Resumo\n"
             "0 Fizz\n"
             "7 Buzz\n"
             "0 FizzBuzz\n"
+            "..............................................................\n"
         )
         result = FizzBuzz(_input)
 
@@ -59,11 +61,12 @@ class VerifyChallenge(unittest.TestCase):
             "FizzBuzz\n"
             "FizzBuzz\n"
             "FizzBuzz\n"
-            "...\n"
+            "..............................................................\n"
             "Resumo\n"
             "0 Fizz\n"
             "0 Buzz\n"
             "7 FizzBuzz\n"
+            "..............................................................\n"
         )
         result = FizzBuzz(_input)
 
@@ -81,11 +84,12 @@ class VerifyChallenge(unittest.TestCase):
             "8\n"
             "11\n"
             "13\n"
-            "...\n"
+            "..............................................................\n"
             "Resumo\n"
             "0 Fizz\n"
             "0 Buzz\n"
             "0 FizzBuzz\n"
+            "..............................................................\n"
         )
         result = FizzBuzz(_input)
 
@@ -111,11 +115,12 @@ class VerifyChallenge(unittest.TestCase):
             "13\n"
             "14\n"
             "FizzBuzz\n"
-            "...\n"
+            "..............................................................\n"
             "Resumo\n"
             "4 Fizz\n"
             "2 Buzz\n"
             "1 FizzBuzz\n"
+            "..............................................................\n"
         )
         result = FizzBuzz(_input)
 
