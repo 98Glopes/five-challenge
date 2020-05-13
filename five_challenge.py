@@ -42,5 +42,5 @@ def FizzBuzz(collection):
 if __name__ == "__main__":
     
 
-    result = FizzBuzz(range(1, 1000**10**10))
+    result = FizzBuzz(range(1, 1000))
     print(result)
