@@ -29,11 +29,12 @@ def FizzBuzz(collection):
 
             result += "%i\n" % n
 
-    result += "...\n"
+    result += "..............................................................\n"
     result += "Resumo\n"
     result += "%i Fizz\n" % n_fizz
     result += "%i Buzz\n" % n_buzz
     result += "%i FizzBuzz\n" % n_fizzbuzz
+    result += "..............................................................\n"
 
 
     return result
